@@ -83,6 +83,7 @@ button:hover {
   background-color: #12354d;
   border-radius: 15px;
   border: 2px solid #fff;
+  padding: 5px 6px;
 }
 
 #pulseaudio {
