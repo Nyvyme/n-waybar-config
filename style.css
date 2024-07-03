@@ -4,7 +4,6 @@
   border: none;
   border-radius: 0px;
   font-size: 14px;
-  color: white;
 }
 
 window#waybar {
@@ -24,72 +23,65 @@ button:hover {
 }
 
 #workspaces {
+  color: #000;
   margin: 3px;
   padding: 1px 1px;
   border-radius: 15px;
   background-color: #fff;
   font-weight: normal;
   font-style: normal;
-  opacity: 0.8;
 }
 
 #workspaces button {
+  color: #000;
   padding: 0px 4px;
   margin: 2px 2px;
   border-radius: 20px;
-  background-color: #12354d;
-  opacity: 0.4;
+  background-color: #FFF;
   transition: all 0.3s ease-in-out;
 }
 
 #workspaces button.active {
-  background-color: #1092e8;
-  opacity: 1;
+  color: #FFF;
+  background-color: #000;
   transition: all 0.3s ease-in-out;
 }
 
 #workspaces button:hover {
-  background-color: #7ac1f0;
+  background-color: #B0B0B0;
+}
+
+#workspaces button.active:hover {
+  color: #FFF;
+  background-color: #000;
+  transition: all 0.3s ease-in-out;
 }
 
 #window {
-  color: #fff;
-  text-shadow: black 0px 0px 2px;
+  color: #FFF;
   margin-right: 10px;
   font-size: 16px;
 }
 
 #clock {
-  background-color: #1092e8;
-  opacity: 1;
-  color: #fff;
+  background-color: #FFF;
+  color: #000;
   margin: 3px;
   padding: 3px 10px;
   border-radius: 15px;
   border: 2px solid #fff;
 }
 
-#tray {
-  background-color: #1092e8;
-  opacity: 1;
-  color: #fff;
-  margin: 3px;
-  padding: 5px;
-  border-radius: 15px;
-  border: 2px solid #fff;
-}
-
 #tray menu {
-  background-color: #12354d;
-  border-radius: 15px;
-  border: 2px solid #fff;
+  background-color: #FFF;
+  color: #FFF;
   padding: 5px 6px;
+  border-radius: 15px
 }
 
 #pulseaudio {
-  background-color: #1092e8;
-  opacity: 1;
-  color: #fff;
+  background-color: #FFF;
+  color: #000;
   margin: 3px;
   padding: 3px 10px;
   border-radius: 15px;
@@ -97,13 +89,11 @@ button:hover {
 }
 
 #language {
-  background-color: #1092e8;
-  opacity: 1;
-  color: #fff;
+  background-color: #FFF;
+  color: #000;
   margin: 3px;
   padding: 3px 10px;
   border-radius: 15px;
-  border: 2px solid #fff;
 }
 
 #memory,
