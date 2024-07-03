@@ -88,6 +88,10 @@ button:hover {
   border: 2px solid #fff;
 }
 
+#pulseaudio.muted {
+  color: #F00;
+}
+
 #language {
   background-color: #FFF;
   color: #000;
