@@ -3,9 +3,9 @@
 
   // Position TOP
   "layer": "top",
-  "margin-top": 5,
+  "margin-top": 0,
   "margin-botton": 0,
-  "height": 12,
+  "height": 36,
   "spacing": 10,
 
   // Load Modules
@@ -13,21 +13,20 @@
 
   // Modules Left
   "modules-left": [
-    "hyprland/workspaces"
+    "hyprland/window"
   ],
 
   // Modules Center
   "modules-center": [
-    "hyprland/window"
+    "hyprland/workspaces"
   ],
 
   // Modules Right
   "modules-right": [
-    "tray",
     "pulseaudio",
     "hyprland/language",
-    "group/hardware",
-    "clock"
+    "clock",
+    "tray"
   ],
 
   // Hardware

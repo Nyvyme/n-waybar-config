@@ -1,6 +1,4 @@
 {
-  // Modules
-
   "hyprland/workspaces": {
     "on-click": "activate",
     "active-only": false,
@@ -22,7 +20,11 @@
   },
 
   "hyprland/window": {
-    "separate-outputs": true
+    "separate-outputs": true,
+    "rewrite": {
+      "(.*) -- Mozilla Firefox": "Firefox"
+    },
+    "max-length": 64
   },
 
   "hyprland/language": {
@@ -46,6 +48,6 @@
   },
 
   "clock": {
-    "format-alt": "{:%Y-%m-%d %a %H:%M:%S}"
+    "format": "{:%a %H:%M}"
   }
 }
