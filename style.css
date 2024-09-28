@@ -39,6 +39,13 @@ button {
   transition: all 0.15s ease-in-out;
 }
 
+#workspaces button.active:hover {
+  color: #FFF;
+  font-weight: bold;
+  background: rgba(255,255,255,0.15);
+  transition: all 0.15s ease-in-out;
+}
+
 #window {
   margin-right: 15px;
   margin-left: 15px;
