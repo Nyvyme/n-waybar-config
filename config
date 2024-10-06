@@ -2,10 +2,10 @@
   // General Settings
 
   // Position TOP
-  "layer": "top",
+  "layer": "bottom",
   "margin-top": 0,
   "margin-botton": 0,
-  "height": 36,
+  "height": 12,
   "spacing": 10,
 
   // Load Modules
