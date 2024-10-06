@@ -7,14 +7,13 @@
 }
 
 window#waybar {
-  background-image: linear-gradient(#252525 90%, #080808);
+  background-image: linear-gradient(#252525 95%, #080808);
   border-bottom: 0px solid #fff;
   transition-property: background-color;
   transition-duration: .5s;
 }
 
 button {
-  margin: 5px;
   border-radius: 10px;
 }
 
@@ -23,6 +22,8 @@ button {
 
 #workspaces button {
   color: #808080;
+  margin-left: 2px;
+  margin-right: 2px;
   transition: all 0.15s ease-in-out;
 }
 
